@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #313142;
+    color: white;
+    font: 30px 'Roboto', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.generakArea {
+    /* background: #5b5b7e; */
+    max-width: 500px;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+/* .inputsArea {
+
+} */
+
+.inputArea {
+    background: transparent;
+    width: 300px;
+    height: 50px;
+    color: rgb(187, 187, 187);
+    border: 2px solid rgb(99, 65, 99);
+    border-radius: 10px;
+    font-size: 26px;
+    /* padding-left: 10px; */
+    text-align: center;
+}
+
+.inpunName {
+    margin-bottom: 10px;
+}
+
+.inpunName:nth-child(3) {
+    margin-top: 30px;
+}
+
+#calculateBtn {
+    background: #242452;
+    border: 2px solid #1d1d46;
+    border-radius: 10px;
+    font-size: 22px;
+    max-width: 40%;
+    margin: auto;
+    padding: 14px 0 14px 0;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+#calculateBtn:hover {
+    background: #1d1d46;
+}
+
+#resultArea {
+    margin-top: 20px;
+}
+
+#resultArea2 {
+    color: #8585a1;
+}
